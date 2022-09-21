@@ -8,7 +8,6 @@
       "@constants/*": ["src/_constants/*"],
       "@styles/*": ["src/styles/*"],
       "@api": ["src/pages/api/index"]
-    },
-    "include": ["."]
+    }
   }
 }
