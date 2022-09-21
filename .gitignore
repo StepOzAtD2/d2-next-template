@@ -48,5 +48,9 @@ Thumbs.db
 *.mov
 *.wmv
 
+# next.js
+.next
+/.next/
+/out/
 
 .vercel
