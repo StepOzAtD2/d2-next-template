@@ -2,8 +2,13 @@ import Image from 'next/image';
 
 import DefaultLayout from '@layouts/d2-default-layout';
 
+import { thankYouContent } from '@data/i18n-thank-you';
+
 
 export default function ThankYou() {
+  const { locale, locales, defaultLocale, asPath } = useRouter();
+  const { title } = thankYouContent[locale] || {};
+  
   return (
     <DefaultLayout>
       <div className="px-8 py-4 mx-auto max-w-full lg:max-w-screen-xl">
